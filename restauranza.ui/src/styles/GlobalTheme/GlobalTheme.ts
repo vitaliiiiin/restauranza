@@ -6,8 +6,8 @@ const defaultTheme = createTheme({
             styleOverrides: {
                 contained: {
                     fontSize: '1rem',
-                    width: 120,
-                    height: 40,
+                    width: 150,
+                    height: 50,
                     backgroundColor: '#FF0541',
                     borderRadius: 12,
                     ":hover": {

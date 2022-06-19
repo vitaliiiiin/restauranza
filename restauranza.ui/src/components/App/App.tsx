@@ -1,10 +1,13 @@
 import { ThemeProvider } from "@mui/material";
-import { createTheme } from "@mui/material/styles"
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import { DefaultTheme } from "../../styles/GlobalTheme";
 import { GlobalStyle } from "../../styles/GlobalStyle";
 import { AppRoutes } from "../Routes";
+import "@fontsource/roboto/300.css";
+import "@fontsource/roboto/400.css";
+import "@fontsource/roboto/500.css";
+import "@fontsource/roboto/700.css";
 
 export function App() {
    
@@ -12,7 +15,7 @@ export function App() {
          <ThemeProvider theme={DefaultTheme}>
             <BrowserRouter>
                 <React.StrictMode>
-                    {/* <GlobalStyle /> */}
+                    <GlobalStyle />
                     <AppRoutes />
                 </React.StrictMode>
             </BrowserRouter>

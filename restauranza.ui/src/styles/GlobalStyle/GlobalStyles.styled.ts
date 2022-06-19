@@ -5,6 +5,10 @@ const GlobalStyle = createGlobalStyle(
         body {
             background-color: #FAF0E6;
         }
+
+        h5 {
+            color: #666363;
+        }
     `
 )
 
